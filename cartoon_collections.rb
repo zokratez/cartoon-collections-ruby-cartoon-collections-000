@@ -28,3 +28,14 @@ def find_the_cheese(cheese)# code an argument here
 
 
 end
+
+def words_with_b(words)
+  #return new array, all wrods from first array that star twith letter b
+  words_with_b=[]
+  words.each do|word|
+    if word.starts_with?("b")
+      words_with_b << word
+    end
+  end
+  words_with_b
+end
